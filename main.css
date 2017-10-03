@@ -80,3 +80,35 @@ nav ul li, nav ol li {
   padding-bottom: 0px;
   list-style: none;
 }
+
+.home_nav a, .home_nav a:visited {
+  font-family: "Lucida Bright", serif;
+  font-size: 500%;
+  text-align: center;
+
+}
+
+.home_nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+}
+
+.home_nav ul {
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.home_nav ul li {
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 1%;
+  
+  background-color: #444444;
+}
+
+#Homeh1 {
+  font-size: 1000%;
+  margin: 0;
+}
