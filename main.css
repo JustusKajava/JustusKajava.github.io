@@ -1,0 +1,114 @@
+@page {
+  margin: 2cm
+}
+
+body {
+  background-color: #333333;
+  color: #dddddd;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0.25cm;
+  line-height: 120%;
+  font-family: "Lucida Bright", serif;
+  font-size: 20pt
+}
+
+h1 {
+  margin-bottom: 0.21cm;
+  font-size: 40pt;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40pt;
+  font-family: "Mangal";
+  font-size: 40pt
+}
+
+h2 {
+  margin-top: 1cm;
+  margin-bottom: 0.5cm;
+  text-decoration: underline;
+  page-break-before: auto;
+  page-break-after: auto;
+  font-style: italic;
+  font-weight: normal;
+  font-family: "Mangal";
+  font-size: 30pt
+}
+
+h3 {
+  font-family: "Mangal";
+  font-size: 25pt;
+  text-decoration: underline;
+}
+
+ul, ol {
+  outline-style: solid;
+  outline-color: grey;
+  outline-offset: 5px;
+  margin-right: 20%;
+  padding-left: 2%;
+  align-self: center;
+  margin-left: 20%;
+}
+
+ul ul, ol ol {
+  outline: none;
+  padding-left: 5%;
+}
+
+li {
+  list-style: circle;
+  text-align: left;
+}
+
+nav ul {
+  display: block;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  margin-right: 40%;
+}
+
+a:visited, a {
+  font-family: "Lucida Bright", serif;
+  font-size: 20pt;
+  color: inherit;
+}
+
+nav ul li, nav ol li {
+  padding-bottom: 0px;
+  list-style: none;
+}
+
+.home_nav a, .home_nav a:visited {
+  font-family: "Lucida Bright", serif;
+  font-size: 500%;
+  text-align: center;
+
+}
+
+.home_nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+}
+
+.home_nav ul {
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.home_nav ul li {
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 1%;
+  
+  background-color: #444444;
+}
+
+#Homeh1 {
+  font-size: 1000%;
+  margin: 0;
+}
